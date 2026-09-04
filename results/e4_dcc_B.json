@@ -1,0 +1,25 @@
+{
+  "proxy EWMA lambda=0.94 (E4 publicado)": {
+    "dR2": 0.01767220078886347,
+    "ci": [
+      0.01195214777234518,
+      0.025094941373226966
+    ],
+    "placebo": -0.0076771075673840086,
+    "acceptance": "PASS"
+  },
+  "MES condicional GJR-DCC (Brownlees-Engle)": {
+    "dR2": 0.020242608670813903,
+    "ci": [
+      0.014679889959341979,
+      0.028714529443603594
+    ],
+    "placebo": -0.006724061817631579,
+    "acceptance": "PASS"
+  },
+  "pareado_dcc_menos_ewma": {
+    "media": 0.0025704078819504344,
+    "a_favor": 21,
+    "n": 37
+  }
+}
