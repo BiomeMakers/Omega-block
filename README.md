@@ -32,6 +32,13 @@ Tests the block as a plain numbers file: nothing but values enters
 your environment. `omega_features_465.csv` covers 465 S&P constituents,
 2016-2025. Verified blind: +0.036 vs a -0.016 placebo (cert_demo.json).
 
+## Evaluating against a baseline you cannot see
+
+`PROTOCOL.md` states the evaluation method separately from this case: the run
+happens in your environment, your baseline replaces ours, the acceptance rule is
+fixed before the run, a same-width noise placebo sets the floor, and the receipt
+carries only aggregates. It also states what the protocol does not solve.
+
 ## Replication registry
 
 See REGISTRY.md. PASS and FAIL results are equally welcome; use
